@@ -70,4 +70,5 @@ function createTable(a, b) {
 
 }
 
-createTable(10, 8)
+createTable(10, 8);
+createTable(10, 10);
