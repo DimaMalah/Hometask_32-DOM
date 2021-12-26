@@ -62,7 +62,7 @@ function createTable(a, b) {
 		table.append(tr);
 		for (let j = 1; j <= b; j++) {
 			let td = document.createElement("td");
-			td.innerHTML = i * 10 + j - 10
+			td.innerHTML = i * b + j - b
 			tr.append(td);
 		}
 	}
@@ -70,4 +70,4 @@ function createTable(a, b) {
 
 }
 
-createTable(10, 10)
+createTable(10, 8)
